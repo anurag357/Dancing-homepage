@@ -8,8 +8,7 @@
 body {
   background-color: #f5f2f0;
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
-  /* background-size: cover; */
+  /* overflow: hidden; */
 }
 
 .navbar-container .navbar {
@@ -240,4 +239,116 @@ main {
 .arrow > img {
   width: 30px;
   margin-right: 100px;
+}
+@media screen and (max-width: 740px) {
+  .navbar-container .navbar .logo img {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .navbar-container .navbar {
+    background-color: white;
+    margin-left: -9rem;
+    position: fixed;
+  }
+  .heading {
+    position: absolute;
+    top: 19rem;
+    left: -10rem; 
+   }
+   .right-container .btn-wrapper {
+    position: relative;
+    left: 1rem;
+    bottom: 5rem;
+
+   }
+   .social-icons {
+    position: relative;
+    right: 7rem;
+    top: 29rem;
+    
+   }
+   .bottom-quote {
+    top: 18rem;
+    left: -2rem;
+   }
+   .bottom {
+    position: relative;
+    top: 42rem;
+    left: -3rem;
+   }
+   .left-image-container .left-image img {
+    left: 2rem;
+    background-size: cover;
+    height: 350px;
+    width: 490px;
+
+   }
+   .heading div p {
+    position: relative;
+    right: 2.1rem;
+   }
+   .navbar-container .navbar {
+    background-color: white;
+    margin-left: -9rem;
+    position: fixed;
+}
+.navbar-container .navbar .list {
+  list-style-type: none;
+  display: flex;
+  gap: 23px;
+  font-size: 13px;
+  color: #868686;
+  align-items: center;
+  position: relative;
+  left: 2.8rem;
+}
+.left-image-container .left-image img {
+  left: 2rem;
+  background-size: cover;
+  height: 250px;
+  width: 338px;
+}
+
+.heading > h1 {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  width: 11px;
+}
+.heading h1 {
+  font-family: "Merriweather";
+  font-size: 5rem;
+  font-weight: 900;
+  color: #333333;
+  width: -126px;
+  /* margin-right: 178px; */
+}
+.right-container .btn-wrapper {
+  /* position: relative; */
+  left: 1rem;
+  padding-left: -26px !important;
+  bottom: 5rem;
+  padding-left: 26px !important;
+  margin: -34px;
+}
+.bottom-quote p {
+  font-size: 16px;
+  margin-bottom: 8px;
+  margin-top: -1px;
+  width: 254px;
+}
+.img > img {
+  width: 60%;
+}
+.arrow > img {
+  /* width: 30px; */
+  margin-right: 277px;
+}
+.navbar-container .navbar {
+  background-color: white;
+  margin-left: -9rem;
+  position: fixed;
+}
 }
